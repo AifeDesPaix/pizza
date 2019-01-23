@@ -1,0 +1,7 @@
+compte : projet.agilea
+mot de passe : ohSei0at
+public_html : https://spartacus.iutc3.unicaen.fr/~projet.agilea
+référentiel partagé : https://spartacus.iutc3.unicaen.fr/svn/projet.agilea
+base de connées mysql : https://spartacus.iutc3.unicaen.fr/phpmyadmin projet_agilea
+compte sql : projet_agilea
+mdp sql : 7UxRWSGqpFpBfrFh

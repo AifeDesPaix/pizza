@@ -1,0 +1,35 @@
+select concat(NOM, ' (', LIBELLETAILLE, ') ') from PIZZA
+join TAILLE using (NUMEROTAILLE)
+order by NOM, NUMEROTAILLE;
+
+INSERT INTO `projet_agilea`.`CLIENT` (`NUMEROCLIENT`, `NOM`, `PRENOM`, `PSEUDO`, `ADRESSE`, `TELEPHONE`, `POINTSFIDELITE`, `MOTDEPASSE`) VALUES (NULL, 'timmy', 'timmy', 'timmy', 'timmy', 'timmy', NULL, 'timmy');
+
+
+affichage des commandes : SELECT * FROM `COMMANDE` order by HEURECOMMANDE;
+affichage des pizzas : SELECT DISTINCT NOM FROM `PIZZA` ORDER BY NOM;
+selection pizzas:
+    -creation commande: INSERT INTO `projet_agilea`.`COMMANDE` (`NUMEROREDUCTION`, `NUMEROCLIENT`, `NUMEROPIZZA`, `NOMBREPIZZA`, `DATECOMMANDE`, `HEURECOMMANDE`, `COMMENTAIRE`) VALUES ('1', '1', '5', '1', SYSDATE(), TIME(SYSDATE()), NULL)
+
+INSERT INTO `projet_agilea`.`COMMANDE` (`NUMEROREDUCTION`, `NUMEROCLIENT`, `NUMEROPIZZA`, `NUMEROCOMMANDE`, `NOMBREPIZZA`, `DATECOMMANDE`, `HEURECOMMANDE`, `COMMENTAIRE`) VALUES ('1', '1', '5', NULL, '1', SYSDATE(), TIME(SYSDATE()), NULL);
+
+SELECT numeroclient from CLIENT where pseudo =''
+
+SELECT MAX( numerocommande )
+FROM COMMANDE
+
+SELECT * FROM COMMANDE WHERE DATE(SYSDATE())= DATECOMMANDE
+
+SELECT * FROM PIZZA 
+JOIN TAILLE USING (NUMEROTAILLE)
+WHERE NOM = 'reine' AND LIBELLETAILLE = 'petite'
+
+
+
+///////////////////////////////////////////////////////////////////////////////////////////////////////
+
+
+https://www.dropbox.com/sh/69radgvu2gxle0f/AABwUXpkg4HhSJkge-SSXdZTa
+
+
+7UxRWSGqpFpBfrFh
+
